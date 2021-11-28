@@ -1,0 +1,30 @@
+.bg {
+  background-image: linear-gradient(
+    to bottom right,
+    #9796f0 0.5%,
+    #fbc7d4 150%
+  );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.unOrderCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.un-order {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: 60%;
+}
+@media screen and (max-width: 770px) {
+  .un-order {
+    width: 90%;
+  }
+}
